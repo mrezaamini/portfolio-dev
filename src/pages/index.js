@@ -5,6 +5,7 @@ import styled from "styled-components";
 import AboutMe from "../components/AboutMe";
 import Work from "../components/Work";
 import ContactMe from "../components/Contactme";
+import Publications from "../components/Publications";
 import { SEO } from "../components/seo";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <AboutMe />
         <Work />
+        <Publications />
         <ContactMe />
       </HomeContainer>
     </Layout>

@@ -28,6 +28,14 @@ module.exports = {
     },
 
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `publications`,
+        path: `${__dirname}/src/publications/`,
+      },
+    },
+
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
